@@ -6,9 +6,9 @@ Analysis of a music store's relational database (Chinook-style schema) using **M
 
 - `Music_Store_Analysis.sql` — All SQL queries (Basic → Advanced)
 - `music_store.py` — Python script to load CSVs into MySQL
-- `schema_diagram.png` — Database schema / ER diagram
+- `schema_diagram_v2.png` — Database schema / ER diagram
 - `Music Store Analysis-Questions.pdf` — Business questions solved
-- `music store data/` — 11 raw CSV files (album, artist, customer, employee, genre, invoice, invoice_line, media_type, playlist, playlist_track, track)
+- `music store data.zip` — 11 raw CSV files (album, artist, customer, employee, genre, invoice, invoice_line, media_type, playlist, playlist_track, track) — extract this folder before running the script
 
 ## 🛠 Tools & Tech
 - **MySQL** — database & querying
@@ -46,15 +46,16 @@ Full solutions with query logic: [`Music_Store_Analysis.sql`](./Music_Store_Anal
 
 ## ▶️ How to Run
 1. Create a MySQL database named `music_database`.
-2. Set your MySQL password as an environment variable (or the script will prompt for it):
+2. Extract `music store data.zip` into a `music store data` folder in the project directory.
+3. Set your MySQL password as an environment variable (or the script will prompt for it):
    ```
-   export MYSQL_PASSWORD=your_password   # Windows: set MYSQL_PASSWORD=your_password
+   export MYSQL_PASSWORD=your_password # Windows: set MYSQL_PASSWORD=your_password
    ```
 4. Run `music_store.py` to load all 11 CSVs into MySQL tables.
 5. Run the queries in `Music_Store_Analysis.sql`.
 
 ## 📊 Schema
-   ![Schema Diagram](./schema_diagram_v2.png)
-   
+![Schema Diagram](./schema_diagram_v2.png)
+
 ---
 *Project by Nidhi Gupta*
