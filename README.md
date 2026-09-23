@@ -54,7 +54,7 @@ Full solutions with query logic: [`Music_Store_Analysis.sql`](./Music_Store_Anal
 5. Run the queries in `Music_Store_Analysis.sql`.
 
 ## 📊 Schema
-![Schema Diagram](./schema_diagram.png)
-
+   ![Schema Diagram](./schema_diagram_v2.png)
+   
 ---
 *Project by Nidhi Gupta*
