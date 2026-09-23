@@ -47,7 +47,7 @@ Full solutions with query logic: [`Music_Store_Analysis.sql`](./Music_Store_Anal
 ## ▶️ How to Run
 1. Create a MySQL database named `music_database`.
 2. Set your MySQL password as an environment variable (or the script will prompt for it):
-   export MYSQL_PASSWORD=your_password   # Windows: set MYSQL_PASSWORD=your_password
+   ```export MYSQL_PASSWORD=your_password   # Windows: set MYSQL_PASSWORD=your_password```
 3. Run `music_store.py` to load all 11 CSVs into MySQL tables.
 4. Run the queries in `Music_Store_Analysis.sql`.
 
