@@ -4,7 +4,7 @@ Analysis of a music store's relational database (Chinook-style schema) using **M
 
 ## 📊 Interactive Dashboard
 
-🔗 **[Open the live dashboard](https://nidhigupta868714-ai.github.io/Music-Store-Sales-Customer-Analysis-SQL/)**
+🔗 **[Open the live dashboard](https://github.com/nidhigupta868714-ai/Music-Store-Sales-Customer-Analysis-SQL/blob/main/index.html)**
 
 [![Dashboard Preview](./dashboard_preview.png)](https://nidhigupta868714-ai.github.io/Music-Store-Sales-Customer-Analysis-SQL/)
 
